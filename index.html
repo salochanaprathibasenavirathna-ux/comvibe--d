@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comvibe AI - Official Download Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans Sinhala', sans-serif;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 50%, #dbeafe 100%);
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        /* Hanging Swinging H1 Board Animation */
+        .swing-board {
+            display: inline-block;
+            background: #ffffff;
+            padding: 16px 36px;
+            border-radius: 12px;
+            box-shadow: 0 12px 30px rgba(30, 58, 138, 0.12);
+            position: relative;
+            transform-origin: top center;
+            animation: swing 3.5s ease-in-out infinite alternate;
+            border: 1px solid #cbd5e1;
+        }
+
+        .swing-board::before {
+            content: "";
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 18px;
+            height: 18px;
+            background: #64748b;
+            border-radius: 50%;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes swing {
+            0% { transform: rotate(-2.5deg); }
+            100% { transform: rotate(2.5deg); }
+        }
+
+        /* Glassmorphism Card Style */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+        }
+
+        .feature-item::before {
+            content: "✓";
+            position: absolute;
+            left: 16px;
+            top: 16px;
+            color: #10b981;
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body class="flex flex-col justify-between min-h-screen">
+
+    <!-- Top Navigation Bar -->
+    <header class="w-full bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-indigo-100 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="app-logo.png" alt="Comvibe AI Logo" class="w-9 h-9 object-contain rounded-lg border border-indigo-100" onerror="this.src='https://placehold.co/100x100/2563eb/ffffff?text=AI'">
+                <span class="font-bold text-slate-800 text-lg tracking-tight">Comvibe AI</span>
+            </div>
+            <a href="https://zenvox-digital.netlify.app" target="_blank" rel="noopener noreferrer" class="px-4 py-2 text-sm font-semibold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg transition-all flex items-center gap-2">
+                <span>Contact Me (Zenvox Digital)</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-4 py-8 w-full flex-grow">
+
+        <!-- Logo & Swinging Title Header -->
+        <div class="text-center my-6">
+            <div class="inline-block p-3 bg-white rounded-2xl shadow-xl shadow-indigo-100 border border-indigo-100 mb-6">
+                <img src="app-logo.png" alt="Comvibe AI Logo" class="w-24 h-24 object-contain rounded-xl hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/120x120/2563eb/ffffff?text=Comvibe+AI'">
+            </div>
+            
+            <div class="block">
+                <div class="swing-board">
+                    <h1 class="text-2xl sm:text-4xl font-black text-indigo-950 tracking-wider">COMVIBE AI</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Intro Card -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-8 mt-6">
+            <p class="text-slate-700 text-base sm:text-lg leading-relaxed font-medium">
+                G.C.E. උසස් පෙළ (A/L) වාණිජ සහ ICT (තොරතුරු තාක්ෂණ) සිසුන් වෙනුවෙන්ම විශේෂයෙන් නිර්මාණය කරන ලද, සම්පූර්ණයෙන්ම ආරක්ෂිත සහ පුද්ගලික (Local-first) ඩෙස්ක්ටොප් යෙදුමකි. මෙය සම්පූර්ණයෙන්ම ඔබේ පරිගණකය තුළ ක්‍රියාත්මක වන අතර, කිසිදු පෞද්ගලික දත්තයක් බාහිර සේවාදායකයන් වෙත යැවීමෙන් තොරව සම්පූර්ණ පෞද්ගලිකත්වයක් (Privacy) තහවුරු කරයි.
+            </p>
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-indigo-900 border-b-2 border-indigo-200 pb-2 mb-6 flex items-center gap-2">
+                <span>✨ Key Features (ප්‍රධාන විශේෂාංග)</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item">
+                    <h3 class="font-bold text-slate-900 text-base mb-1">විෂය මාලාවටම අදාළයි</h3>
+                    <p class="text-slate-600 text-sm">ගිණුම්කරණය (Accounting), ව්‍යාපාර අධ්‍යයනය (Business Studies) සහ ආර්ථික විද්‍යාව (Economics) යන විෂයයන් සඳහා විශේෂිත මඟපෙන්වීමක් ලබා දෙයි.</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item border-2 border-indigo-500/30 bg-gradient-to-br from-white to-indigo-50/50">
+                    <h3 class="font-bold text-indigo-950 text-base mb-1 flex items-center gap-2">
+                        <span>💻 ICT & Programming Lab</span>
+                        <span class="text-[10px] bg-indigo-600 text-white px-2 py-0.5 rounded-full">New</span>
+                    </h3>
+                    <p class="text-slate-600 text-sm">උසස් පෙළ ICT සිසුන් සඳහා Programming පුහුණු වීමට, කෝඩ්ස් පරීක්ෂා කිරීමට (Testing Lab) සහ ගැටලු නිරාකරණය කර ගැනීමට ඇප් එක තුළම විශේෂ පහසුකම් ඇත.</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item">
+                    <h3 class="font-bold text-slate-900 text-base mb-1">පියවරෙන් පියවර පැහැදිලි කිරීම්</h3>
+                    <p class="text-slate-600 text-sm">සංකීර්ණ ගැටලු සිසුන්ට පහසුවෙන් තේරුම් ගත හැකි පරිදි පියවරෙන් පියවර (Step-by-step) සරලව පැහැදිලි කරයි.</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item">
+                    <h3 class="font-bold text-slate-900 text-base mb-1">රචනා සහ පිළිතුරු ඇගයීම</h3>
+                    <p class="text-slate-600 text-sm">ඔබේ පිළිතුරු හෝ රචනා පරීක්ෂා කර, ඇස්තමේන්තුගත ලකුණු මට්ටම් ලබා දී, දියුණු කරගත යුතු තැන් පෙන්වා දෙයි.</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item">
+                    <h3 class="font-bold text-slate-900 text-base mb-1">පසුගිය ප්‍රශ්න පත්‍ර එකතු කිරීම</h3>
+                    <p class="text-slate-600 text-sm">PDF ප්‍රශ්න පත්‍ර උඩුගත කර (Upload) පුහුණු ප්‍රශ්න සකස් කර ගැනීමට සහ අධ්‍යයන ද්‍රව්‍යවලින්ම පිළිතුරු ලබා ගැනීමට පහසුකම් සපයයි.</p>
+                </div>
+
+                <div class="glass-card p-5 rounded-xl relative pl-12 feature-item">
+                    <h3 class="font-bold text-slate-900 text-base mb-1">ඔබේම API Key එකක් භාවිතය</h3>
+                    <p class="text-slate-600 text-sm">සැඟවුණු ගාස්තු හෝ දායකත්ව (Subscriptions) නොමැත. සේවාව නොමිලේ භාවිත කිරීමට ඔබේම Gemini API Key එක ඇප් එකට ඇතුළත් කරන්න.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download CTA Button Section -->
+        <section class="text-center my-12">
+            <!-- ⚠️ Note: Make sure to update the href link below if you publish a new GitHub release version -->
+            <a href="https://github.com/salochanaprathibasenavirathna-ux/comvibe-ai/releases/download/v1.0.0/Comvibe.AI-Setup-1.0.0.exe" id="download-btn" class="inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 transition-all duration-200">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                <span>Download Comvibe AI for Windows (.exe)</span>
+            </a>
+            <p class="text-xs text-slate-500 mt-3">Free & Safe Direct Download via GitHub Releases</p>
+        </section>
+
+        <!-- Windows SmartScreen / Installation Guide Section -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-10 border-l-4 border-l-amber-500">
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span>🛡️ Windows SmartScreen අවවාදය මඟහරවා ගන්නේ කෙසේද? (Installation Help)</span>
+            </h2>
+            <p class="text-sm text-slate-600 mb-4">ඔබ ඇප් එක ඩවුන්ලෝඩ් කර ඉන්ස්ටෝල් කරන විට Windows මඟින් නිල් පාට හෝ කහ පාට අවවාදාත්මක පණිවිඩයක් (<code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">Windows protected your PC</code>) පෙන්විය හැක. මෙය <strong>වෛරසයක් නිසා සිදුවන දෙයක් නොවේ</strong> (අපගේ ඇප් එක 100% ආරක්ෂිතයි). අලුත් ඩෙස්ක්ටොප් ඇප් එකක් නිසා Windows මඟින් එය පෙන්වීම සාමාන්‍ය දෙයකි.</p>
+            
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-900 space-y-2">
+                <p class="font-bold text-sm text-amber-950">මෙය මඟහරවා ඇප් එක ඉන්ස්ටෝල් කරගන්නේ මෙන්න ಹೀಗයි:</p>
+                <ol class="list-decimal list-inside space-y-1 font-medium">
+                    <li>Setup ෆයිල් එක ඕපන් කළ විට <span class="font-bold">"Windows protected your PC"</span> ලෙස වැටුණොත්, එහි ඇති <span class="font-bold underline">"More info"</span> කියන ලින්ක් එක මත ක්ලික් කරන්න.</li>
+                    <li>ඊටපස්සේ පහළින් මතුවන <span class="font-bold bg-amber-200 px-1 py-0.5 rounded">"Run anyway"</span> කියන බොත්තම ක්ලික් කරන්න.</li>
+                    <li>ප්‍රති-වෛරස් මෘදුකාංගයකින් (Antivirus) කිසිදු අවහිරයක් නොමැතිව සාර්ථකව ඇප් එක ඉන්ස්ටෝල් වනු ඇත!</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- API Key Guide Section (Detailed with Visual Mockups) -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-10 border-l-4 border-l-indigo-600">
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span>🔑 Gemini API Key එකක් ලබාගන්නා සහ භාවිත කරන ආකාරය</span>
+            </h2>
+            <p class="text-sm text-slate-600 mb-6">Comvibe AI නොමිලේ භාවිත කිරීම සඳහා ඔබට Google වෙතින් ලබාගන්නා සාමාන්‍ය API Key එකක් අවශ්‍ය වේ. මෙය ඉතා පහසුවෙන් විනාඩියකින් සාදාගත හැක.</p>
+
+            <!-- Step 1: Getting Key -->
+            <div class="mb-8">
+                <h3 class="font-bold text-indigo-900 text-base mb-3 flex items-center gap-2">
+                    <span class="w-6 h-6 rounded-full bg-indigo-600 text-white text-xs flex items-center justify-center">1</span>
+                    <span>Gemini API Key එකක් නොමිලේ ලබාගැනීම (Step-by-Step Guide)</span>
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                    <!-- Step Item 1 -->
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="font-semibold text-slate-800 text-sm mb-1">1. AI Studio වෙත යන්න</div>
+                        <p class="text-xs text-slate-600 mb-3"><a href="https://aistudio.google.com" target="_blank" class="text-indigo-600 underline font-semibold">aistudio.google.com</a> වෙබ් අඩවියට පිවිස ඔබේ Gmail එකෙන් Sign in වන්න.</p>
+                        <div class="bg-indigo-50 p-3 rounded-lg border border-indigo-100 text-center">
+                            <span class="text-xs font-bold text-indigo-700">Sign in with Google</span>
+                        </div>
+                    </div>
+
+                    <!-- Step Item 2 -->
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="font-semibold text-slate-800 text-sm mb-1">2. "Get API key" ක්ලික් කරන්න</div>
+                        <p class="text-xs text-slate-600 mb-3">වම් පස හෝ උඩ තියෙන "Create API key" හෝ "Get API key" බටන් එක ක්ලික් කරන්න.</p>
+                        <div class="bg-blue-600 text-white p-2 rounded text-center text-xs font-bold shadow-sm">
+                            + Create API Key
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-900 flex items-start gap-3">
+                    <span class="text-amber-600 text-base">⚠️</span>
+                    <div>
+                        <strong>වැදගත්:</strong> ලැබෙන API Key එක (දිගු කෝඩ් එකක්) Copy කර සුරක්ෂිතව තබාගන්න. එය වෙනත් කිසිවෙකුට ලබා නොදෙන්න.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Entering Key into App -->
+            <div>
+                <h3 class="font-bold text-indigo-900 text-base mb-3 flex items-center gap-2">
+                    <span class="w-6 h-6 rounded-full bg-indigo-600 text-white text-xs flex items-center justify-center">2</span>
+                    <span>Comvibe AI ඇප් එක ඇතුළට API Key එක ඇතුළත් කරන්නේ කොතැනටද?</span>
+                </h3>
+
+                <p class="text-xs text-slate-600 mb-4">ඇප් එක පළමු වරට විවෘත කළ විට හෝ Settings පිටුවට ගිය විට පහත ආකාරයේ පෙනුමක් ඔබට බලාගත හැක:</p>
+
+                <!-- Visual App Interface UI Representation -->
+                <div class="bg-slate-900 text-white p-5 rounded-xl shadow-lg border border-slate-800 max-w-xl mx-auto mb-4">
+                    <div class="flex items-center justify-between border-b border-slate-700 pb-3 mb-4">
+                        <span class="text-xs font-bold text-indigo-400">⚙️ Comvibe AI - API Settings</span>
+                        <span class="text-[10px] bg-indigo-900 text-indigo-200 px-2 py-0.5 rounded">Setup</span>
+                    </div>
+                    
+                    <div class="space-y-3 text-left">
+                        <label class="block text-xs font-medium text-slate-300">Enter your Gemini API Key:</label>
+                        <div class="relative">
+                            <input type="text" readonly value="AIzaSyD-EXAMPLE-KEY-xxxxxx-123456" class="w-full bg-slate-800 border border-indigo-500/50 rounded-lg px-3 py-2 text-xs text-emerald-400 font-mono tracking-wider focus:outline-none">
+                            <span class="absolute right-3 top-2 text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded">Paste Here</span>
+                        </div>
+                        <div class="pt-2 flex justify-end">
+                            <div class="bg-indigo-600 text-white px-4 py-1.5 rounded-lg text-xs font-bold shadow hover:bg-indigo-500 cursor-pointer">
+                                Save API Key
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="space-y-2 text-xs text-slate-700 font-medium max-w-xl mx-auto">
+                    <li class="flex items-center gap-2">
+                        <span class="text-indigo-600 font-bold">1.</span>
+                        <span>ඔබ Copy කරගත් API Key එක උඩ පෙන්වා ඇති කොටුව තුළ **Paste** කරන්න.</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-indigo-600 font-bold">2.</span>
+                        <span>**Save API Key** බටන් එක ක්ලික් කරන්න. දැන් ඔබට ඇප් එක බාධාවකින් තොරව භාවිත කළ හැක!</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Developer Announcement & Future Updates Banner -->
+        <section class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xl">
+            <div class="flex items-start gap-4">
+                <div class="p-3 bg-indigo-500/20 rounded-xl text-indigo-300">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-indigo-200 mb-2">විශේෂ දැනුම්දීමයි (Special Announcement)</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-3">
+                        මෙම මෘදුකාංගය සෑදීම ඉතාම කැපවීමෙන් සහ මහන්සියෙන් සිදු කරන ලද්දක් වන අතර, ප්‍රථම අදියර ලෙස උසස් පෙළ **වාණිජ සහ ICT (තොරතුරු තාක්ෂණ)** සිසුන් වෙනුවෙන් මෙය නිකුත් කර ඇත.
+                    </p>
+                    <p class="text-indigo-300 font-semibold text-sm">
+                        🚀 ඉදිරියේදී උසස් පෙළ Science, Maths සහ Arts ඇතුළු **සියලුම විෂය ධාරාවන් (All A/L Streams)** ආවරණය වන පරිදි නිරන්තරයෙන් Update ලබා දීමට අපි කටයුතු කරන්නෙමු!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-slate-900 text-slate-400 py-6 text-center text-sm border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <p>© 2026 Developed with ❤️ by <a href="https://zenvox-digital.netlify.app" target="_blank" rel="noopener noreferrer" class="text-indigo-400 font-semibold hover:underline">Zenvox Digital</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
