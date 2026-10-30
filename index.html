@@ -96,11 +96,53 @@
             </div>
         </div>
 
-        <!-- Main Intro Card -->
-        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-8 mt-6">
-            <p class="text-slate-700 text-base sm:text-lg leading-relaxed font-medium">
+        <!-- 1. Main Intro Card (App Description) -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-8">
+            <h2 class="text-xl font-bold text-indigo-950 mb-3 flex items-center gap-2">
+                <span>🎯 මෘදුකාංගය හැඳින්වීම (About Comvibe AI)</span>
+            </h2>
+            <p class="text-slate-700 text-base sm:text-lg leading-relaxed font-medium mb-4">
                 G.C.E. උසස් පෙළ (A/L) වාණිජ සහ ICT (තොරතුරු තාක්ෂණ) සිසුන් වෙනුවෙන්ම විශේෂයෙන් නිර්මාණය කරන ලද, සම්පූර්ණයෙන්ම ආරක්ෂිත සහ පුද්ගලික (Local-first) ඩෙස්ක්ටොප් යෙදුමකි. මෙය සම්පූර්ණයෙන්ම ඔබේ පරිගණකය තුළ ක්‍රියාත්මක වන අතර, කිසිදු පෞද්ගලික දත්තයක් බාහිර සේවාදායකයන් වෙත යැවීමෙන් තොරව සම්පූර්ණ පෞද්ගලිකත්වයක් (Privacy) තහවුරු කරයි.
             </p>
+            <p class="text-sm text-indigo-900 bg-indigo-50/80 p-3 rounded-xl border border-indigo-100 font-semibold">
+                💡 මෙම මෙවලම මඟින් සිසුන්ට තම විෂය කරුණු ඉතා පහසුවෙන්, සරලව සහ නොමිලේ AI තාක්ෂණය හරහා අධ්‍යයනය කිරීමට විශාල රුකුලක් ලබා දේ.
+            </p>
+        </section>
+
+        <!-- 2. CRITICAL WARNING: AI Dependency on User's API Key -->
+        <section class="bg-gradient-to-r from-amber-500 to-orange-600 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xl border-2 border-amber-300">
+            <div class="flex items-start gap-4">
+                <div class="p-3 bg-white/20 rounded-xl text-white">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-amber-100 mb-2">⚠️ ඉතා වැදගත් දැනුම්දීමයි: ඇප් එකේ ක්‍රියාකාරීත්වය සහ API Key රඳාපැවැත්ම</h3>
+                    <p class="text-amber-50 text-sm leading-relaxed font-medium mb-3">
+                        මෙම යෙදුම AI (కෘත්‍රිම බුද්ධිය) සමඟ සම්බන්ධ වී ක්‍රියාත්මක වීමේදී, අපගේ වෙනත් සේවාදායකයන් (Servers) මත කිසිදු API Key එකක් රඳවා තබා ගන්නේ නැත. 
+                    </p>
+                    <p class="text-white font-semibold text-sm bg-amber-900/50 p-3 rounded-lg border border-amber-400/40">
+                        🔑 <strong>ප්‍රධාන කරුණ:</strong> මෙම ඇප් එක සම්පූර්ණයෙන්ම ඔබේ පාලනය යටතේ පවතින අතර, AI ක්‍රියාකාරිත්වය සඳහා <strong>ඔබ විසින් ඇතුළත් කරන ලද సొంత Gemini API Key එක මත පමණක්</strong> සම්පූර්ණයෙන්ම රඳා පවතී. ඔබ නිවැරදි API Key එක ඇප් එකට ලබා දී නොමැති නම් හෝ සීමාවන් ඉක්මවා ගොස් ඇත්නම්, ඇප් එකේ AI පහසුකම් ක්‍රියාත්මක නොවනු ඇත!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. CRITICAL RED NOTICE BANNER (Anti-Deletion & Encouragement) -->
+        <section class="bg-gradient-to-r from-red-600 to-rose-700 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xl border-2 border-red-400">
+            <div class="flex items-start gap-4">
+                <div class="p-3 bg-white/20 rounded-xl text-white animate-pulse">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-amber-200 mb-2">⚠️ අත්‍යවශ්‍ය විශේෂ නිවේදනයයි (Important Notice for Users)</h3>
+                    <p class="text-red-50 text-sm leading-relaxed font-medium mb-3">
+                        ඇතැමුන් මෙම මෘදුකාංගය නිසි ලෙස වටහා නොගෙන ඉවත් කර ගැනීමට (Delete කිරීමට) උත්සාහ කරන බව පෙනෙන්නට ඇත. කරුණාකර මතක තබා ගන්න: **මෙය සෑදී ඇත්තේ ඔබේ A/L අධ්‍යයන කටයුතු පහසු කර ගැනීමට සහ නොමිලේ මඟපෙන්වීමක් ලබා ගැනීමටයි!** 
+                    </p>
+                    <p class="text-white font-semibold text-sm bg-red-800/60 p-3 rounded-lg border border-red-400/30">
+                        🔥 ඉදිරියටත් මීට වඩා දියුණු පහසුකම්, ගැටලු නිරාකරණයන් සහ නව අප්ඩේට්ස් (Updates) සමඟ මෙම ඇප් එක තවත් ඉහළ මට්ටමකට ගෙන ඒමට අපි බලාපොරොත්තු වෙමු. එබැවින් මෙය ඔබේ අධ්‍යයන කටයුතු සඳහා දිගටම භාවිත කරන්න!
+                    </p>
+                </div>
+            </div>
         </section>
 
         <!-- Key Features Section -->
@@ -145,16 +187,6 @@
             </div>
         </section>
 
-        <!-- Download CTA Button Section -->
-        <section class="text-center my-12">
-            <!-- ⚠️ Note: Make sure to update the href link below if you publish a new GitHub release version -->
-            <a href="https://github.com/salochanaprathibasenavirathna-ux/comvibe-ai/releases/download/v1.0.0/Comvibe.AI-Setup-1.0.0.exe" id="download-btn" class="inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 transition-all duration-200">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                <span>Download Comvibe AI for Windows (.exe)</span>
-            </a>
-            <p class="text-xs text-slate-500 mt-3">Free & Safe Direct Download via GitHub Releases</p>
-        </section>
-
         <!-- Windows SmartScreen / Installation Guide Section -->
         <section class="glass-card rounded-2xl p-6 sm:p-8 mb-10 border-l-4 border-l-amber-500">
             <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2">
@@ -169,6 +201,25 @@
                     <li>ඊටපස්සේ පහළින් මතුවන <span class="font-bold bg-amber-200 px-1 py-0.5 rounded">"Run anyway"</span> කියන බොත්තම ක්ලික් කරන්න.</li>
                     <li>ප්‍රති-වෛරස් මෘදුකාංගයකින් (Antivirus) කිසිදු අවහිරයක් නොමැතිව සාර්ථකව ඇප් එක ඉන්ස්ටෝල් වනු ඇත!</li>
                 </ol>
+            </div>
+        </section>
+
+        <!-- API Limit & Solution Guide Section -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-10 border-l-4 border-l-blue-600">
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span>⚡ API Limit එක ඉක්මවා ගියහොත් (Quota / Limit Reached) කළ යුත්තේ කුමක්ද?</span>
+            </h2>
+            <p class="text-sm text-slate-600 mb-4">Google AI Studio මඟින් නොමිලේ ලබාදෙන API භාවිත සීමාව (Limit) ඇතැම් අවස්ථාවකදී ඉක්මවා යාමට හැක. එවැනි අවස්ථාවක ඇප් එක වැඩ කිරීම තාවකාලිකව නතර වුවහොත් කළ යුතු දේ:</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm text-xs space-y-2">
+                    <div class="font-bold text-indigo-900 text-sm">1. අලුත් API Key එකක් සාදාගන්න</div>
+                    <p class="text-slate-600">ඔබට ඉතා පහසුවෙන් Google AI Studio වෙත ගොස් තවත් නොමිලේ API Key එකක් අලුතින් සාදාගත හැක.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm text-xs space-y-2">
+                    <div class="font-bold text-indigo-900 text-sm">2. Settings වලට ගොස් Update කරන්න</div>
+                    <p class="text-slate-600">ඇප් එකේ Settings පිටුවට ගොස් එම නව Key එක ඇතුළත් කර Save කළ සැණින් ඇප් එක නැවත කිසිදු බාධාවකින් තොරව ක්‍රියාත්මක වේ!</p>
+                </div>
             </div>
         </section>
 
@@ -257,6 +308,37 @@
             </div>
         </section>
 
+        <!-- REAL STUDENT Q&A & FEEDBACK SECTION (No Fake Comments) -->
+        <section class="glass-card rounded-2xl p-6 sm:p-8 mb-10 border-l-4 border-l-indigo-600">
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span>💬 සිසුන්ගේ ගැටලු, ප්‍රශ්න සහ අදහස් (Student Q&A & Feedback)</span>
+            </h2>
+            <p class="text-sm text-slate-600 mb-6">මෙම යෙදුම භාවිත කිරීමේදී ඔබට මතු වන ගැටලු, අදහස් හෝ යෝජනා පහතින් දැක බලාගත හැක. ඔබටත් යමක් ඇසීමට ඇත්නම් අපගේ සම්බන්ධතා (Contact) හරහා දන්වන්න.</p>
+
+            <div class="space-y-4">
+                <!-- Question 1 -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-1">
+                    <div class="flex items-center justify-between text-xs font-bold text-slate-800">
+                        <span>ශිෂ්‍යයෙක් (A/L Commerce)</span>
+                        <span class="text-indigo-600">ප්‍රශ්නයක්</span>
+                    </div>
+                    <p class="text-xs text-slate-700">"ඇප් එක ඕපන් කළාම සමහර වෙලාවට AI එක රెస్පොන්ඩ් කරන්නේ නැහැ නේද? API Key එක දෙන්නේ කොහොමද කියලා තව ටිකක් පැහැදිලි කරන්න පුළුවන්ද?"</p>
+                    <div class="bg-indigo-50 p-2.5 rounded-lg text-xs text-indigo-950 mt-2 border border-indigo-100">
+                        <strong>Developer's Reply:</strong> ඉහත දැක්වෙන <a href="#api-guide" class="underline font-semibold">"API Key ලබාගන්නා ආකාරය"</a> මාර්ගෝපදේශය හොඳින් කියවන්න. ඔබගේ AI Studio එකෙන් ගත් Key එක ඇප් එකේ Settings වලට ගොස් නිවැරදිව Save කර ඇත්දැයි පරීක්ෂා කරන්න. එවිට ගැටළුව විසඳේවි!
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-1">
+                    <div class="flex items-center justify-between text-xs font-bold text-slate-800">
+                        <span>කවිඳු (A/L ICT Student)</span>
+                        <span class="text-emerald-600">අදහසක් / Feedback</span>
+                    </div>
+                    <p class="text-xs text-slate-700">"ICT Programming Lab එක නම් මට ගොඩක් ප්‍රයෝජනවත් වුණා. කෝඩ්ස් ටෙස්ට් කරගන්න ලේසියි. ස්තූතියි මේ වගේ ඇප් එකක් හදපු එකට!"</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Developer Announcement & Future Updates Banner -->
         <section class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-xl">
             <div class="flex items-start gap-4">
@@ -269,10 +351,22 @@
                         මෙම මෘදුකාංගය සෑදීම ඉතාම කැපවීමෙන් සහ මහන්සියෙන් සිදු කරන ලද්දක් වන අතර, ප්‍රථම අදියර ලෙස උසස් පෙළ **වාණිජ සහ ICT (තොරතුරු තාක්ෂණ)** සිසුන් වෙනුවෙන් මෙය නිකුත් කර ඇත.
                     </p>
                     <p class="text-indigo-300 font-semibold text-sm">
-                        🚀 ඉදිරියේදී උසස් පෙළ Science, Maths සහ Arts ඇතුළු **සියලුම විෂය ධාරාවන් (All A/L Streams)** ආවරණය වන පරිදි නිරන්තරයෙන් Update ලබා දීමට අපි කටයුතු කරන්නෙමු!
+                        🚀 ඉදිරියේදී මීටත් වඩා ඉහළ මට්ටමේ නව විශේෂාංග සහ **සියලුම විෂය ධාරාවන් (All A/L Streams)** ආවරණය වන පරිදි නිරන්තරයෙන් Update ලබා දෙමින් මෙම වේදිකාව තවත් අනාගතයට ගෙන යාමට අප දැඩි ලෙස කටයුතු කරන්නෙමු!
                     </p>
                 </div>
             </div>
+        </section>
+
+        <!-- 🎯 DOWNLOAD CTA BUTTON SECTION (Placed at the very bottom after reading all instructions) -->
+        <section class="text-center my-12 bg-indigo-900/10 p-8 rounded-3xl border border-indigo-200">
+            <h3 class="text-xl font-bold text-indigo-950 mb-3">ඔබ සියලු මඟපෙන්වීම් සහ විස්තර හොඳින් කියෙව්වා ද?</h3>
+            <p class="text-sm text-slate-600 mb-6">ඇප් එක බාධාවකින් තොරව සාර්ථකව භාවිත කිරීම සඳහා ඉහත විස්තර කියවීම අත්‍යවශ්‍ය වේ.</p>
+            
+            <a href="https://github.com/salochanaprathibasenavirathna-ux/comvibe-ai/releases/download/v1.0.0/Comvibe.AI-Setup-1.0.0.exe" id="download-btn" class="inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 transition-all duration-200">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                <span>Download Comvibe AI for Windows (.exe)</span>
+            </a>
+            <p class="text-xs text-slate-500 mt-3">Free & Safe Direct Download via GitHub Releases</p>
         </section>
 
     </main>
